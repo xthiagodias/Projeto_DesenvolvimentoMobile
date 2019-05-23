@@ -1,0 +1,67 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="1"
+            android:rowCount="9" android:background="@drawable/background_gradient">
+
+    <TextView
+            android:id="@+id/idTituloAvaliacao"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="AVALIAÇÃO" android:textStyle="bold" android:paddingLeft="160dp"
+            android:textColor="@color/colorPrimary"/>
+    <TextView
+            android:id="@+id/idTituloCurso"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="CURSO:" android:textStyle="bold" android:textColor="@color/colorPrimary"/>
+    <TextView
+            android:id="@+id/idCurso"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="CURSO:"/>
+
+    <TextView
+            android:id="@+id/idTituloMedia"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="AVALIAÇÃO" android:textStyle="bold" android:textColor="@color/colorPrimary"/>
+    <TextView
+            android:id="@+id/idMedia"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="AVALIAÇÃO:" android:layout_column="0"/>
+
+    <TextView
+            android:id="@+id/idTituloNome"
+            android:layout_width="match_parent"
+            android:layout_gravity="fill_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="MENSAGEM:" android:textStyle="bold" android:textColor="@color/colorPrimary"/>
+
+    <TextView
+            android:id="@+id/idSugestao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="MENSAGEM:" android:layout_column="0"/>
+
+</GridLayout>
